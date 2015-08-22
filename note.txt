@@ -41,3 +41,9 @@ env CONTROLLER=orders bin/rank route
 
 routes 中, 可以使用 on:collectin 設定 route 對 collection 發生作用
 
+
+ruby 可以用 byebug 中斷並取回控制權到irb 中進行測試
+
+個人開發時，requestbin 很好用
+http://requestb.in/vdvdysvd?inspect
+http://requestb.in/vdvdysvd
