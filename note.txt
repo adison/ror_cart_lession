@@ -1,3 +1,4 @@
+
 打造漂亮的 ruby 後台 rubyconf 2014
 
 http://tonytonyjan.net/slides/
@@ -16,3 +17,11 @@ rails g scaffold Admin::Order \
 
 處理權限，簡單的權限可以透過 http 簡易認證處理
 http_basic_authenticate_with name: "tony", password: "tony"
+
+
+postgre 有 json 欄位
+ror 支援 postgre json field 偵測? 
+	或者說可以不用對 postgre json type field 進行 serialize
+
+SecureRandom.nex(3)產生隨機編號
+可以進行檢查避免重複
