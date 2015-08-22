@@ -5,7 +5,7 @@ http://tonytonyjan.net/slides/
 
 處理後台容易有路徑問題
 透過有實體的admin 可以讓 route 簡化
-所以這邊跑 sacffold 時，會加入繼承設定
+所以這邊跑 sacffold 時，會加入繼承設定 --parent=Order
 rails g scaffold Admin::Product \
   name description:text price:decimal stock:integer \
   --parent=Product
@@ -14,3 +14,5 @@ rails g scaffold Admin::Order \
   --parent=Order
 
 
+處理權限，簡單的權限可以透過 http 簡易認證處理
+http_basic_authenticate_with name: "tony", password: "tony"
