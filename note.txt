@@ -25,3 +25,12 @@ ror 支援 postgre json field 偵測?
 
 SecureRandom.nex(3)產生隨機編號
 可以進行檢查避免重複
+
+
+開始處理
+
+
+
+
+model 的 hook/callback 整個是一個 transaction
+其中有一個回傳 false/exception 就會整個 rollback
